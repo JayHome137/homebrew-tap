@@ -7,14 +7,14 @@ cask "deepseek-monitor" do
   desc "Menu bar app for monitoring DeepSeek V4 Flash and Pro usage"
   homepage "https://github.com/JayHome137/DeepSeekMonitor"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "DeepSeekMonitor.app"
 
   zap trash: [
-    "~/Library/Preferences/com.deepseek.monitor.plist",
     "~/Library/Application Support/DeepSeekMonitor",
-    "~/Library/Group Containers/N5YV5FV235.group.com.deepseek.monitor",
     "~/Library/Containers/com.deepseek.monitor.widget",
+    "~/Library/Group Containers/N5YV5FV235.group.com.deepseek.monitor",
+    "~/Library/Preferences/com.deepseek.monitor.plist",
   ]
 end
