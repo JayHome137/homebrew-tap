@@ -1,6 +1,6 @@
 cask "deepseekmonitor" do
   version "1.4.9"
-  sha256 "46495355b56361dc611d859448ad35a79bf0eb69e95b618e1b8d9ec00e66aa36"
+  sha256 "29b43536b47c9dd2a1aa88130dc93a9409615c0233f5a8f48e5fcb03fab4f524"
 
   url "https://github.com/JayHome137/DeepSeekMonitor/releases/download/v#{version}/DeepSeekMonitor-v#{version}.dmg"
   name "DeepSeek Monitor"
