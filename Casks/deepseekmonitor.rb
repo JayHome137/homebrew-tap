@@ -7,6 +7,11 @@ cask "deepseekmonitor" do
   desc "Menu bar app for monitoring DeepSeek V4 Flash and Pro usage"
   homepage "https://github.com/JayHome137/DeepSeekMonitor"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: :sonoma
 
   app "DeepSeekMonitor.app"
