@@ -1,10 +1,10 @@
 cask "deepseekmonitor" do
-  version "1.5.1"
-  sha256 "261807e97ca97bc435755522d7d94ae5a8556b21b8ea106901bdd5eaaa9eff97"
+  version "1.6"
+  sha256 "24dc27cad28f4769fe5a0b70263d780368cc8b286a810886964f5b4ddcb3c2ef"
 
   url "https://github.com/JayHome137/DeepSeekMonitor/releases/download/v#{version}/DeepSeekMonitor-v#{version}.dmg"
   name "DeepSeek Monitor"
-  desc "Menu bar app for monitoring DeepSeek V4 Flash and Pro usage"
+  desc "Menu bar app for monitoring DeepSeek V4.1 Flash and V4 Flash usage"
   homepage "https://github.com/JayHome137/DeepSeekMonitor"
 
   livecheck do
